@@ -17,3 +17,12 @@ function add (num1, num2) {
     console.log(sum);
 }
 add(11,11);
+
+function addAll (a, b, c, d, e) {
+    const total = a + b + c + d + e;
+    console.log(total);
+}
+
+addAll(1,1,1,1,1);
+addAll(1,1,1,1,0);
+addAll(1,1,1,1,);
